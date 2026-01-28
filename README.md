@@ -3,6 +3,12 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Methodology](https://img.shields.io/badge/methodology-Agile-orange)
+![Language](https://img.shields.io/badge/docs-EN%20%7C%20ES-purple)
+
+---
+
+<details>
+<summary>🇬🇧 <b>English Version</b></summary>
 
 ## 🚀 Overview
 
@@ -22,71 +28,102 @@ NexusFlow serves as the central hub for operational excellence, enabling teams t
 
 ```
 NexusFlow/
-├── assets/            # Static resources and media
-├── backlog/           # Product backlog items and stories
-├── docs/              # Documentation and specifications
-│   └── PRODUCCION.md  # Production user stories (PROD-01 to PROD-05)
-└── prompts/           # AI prompts and execution logs
+├── assets/              # Static resources and media
+├── backlog/             # Product backlog items and stories
+├── docs/
+│   ├── en/              # English documentation
+│   │   └── PRODUCCION.md
+│   └── es/              # Spanish documentation
+│       └── PRODUCCION.md
+└── prompts/             # AI prompts and execution logs
 ```
 
 ## 🔄 Agile Framework Components
 
-### Sprint Management
-- Sprint Planning Dashboard
-- Daily Standup Tracking
-- Sprint Review & Retrospective
-
-### Backlog Management
-- Product Backlog Prioritization
-- User Story Templates
-- Acceptance Criteria Checklists
-
-### Velocity Tracking
-- Team Capacity Planning
-- Burndown Charts
-- Velocity Trends
-
-### Risk Management
-- Risk Identification Matrix
-- Mitigation Strategies
-- Continuous Monitoring
-
-## 🏗️ Architecture
-
-NexusFlow follows a modular architecture designed for scalability:
-
-| Component | Purpose |
-|-----------|---------|
-| Operations Hub | Central dashboard for all operations |
-| Backlog Manager | Product and sprint backlog handling |
-| Velocity Tracker | Performance metrics and analytics |
-| Risk Assessor | Risk identification and mitigation |
-| Integration Layer | Third-party tool connections |
-
-## 🚦 Getting Started
-
-1. Review the production user stories in `docs/PRODUCCION.md`
-2. Check the Operations Hub board in Trello
-3. Follow the sprint planning guidelines
-4. Track progress using the velocity metrics
+| Component | Description |
+|-----------|-------------|
+| Sprint Management | Planning, daily standups, reviews & retrospectives |
+| Backlog Management | Prioritization, user stories, acceptance criteria |
+| Velocity Tracking | Capacity planning, burndown charts, trends |
+| Risk Management | Identification, mitigation, continuous monitoring |
 
 ## 📊 Trello Integration
 
-The project uses Trello for visual project management:
-
-- **Board**: NexusFlow - Operations Hub
+- **Board**: [NexusFlow - Operations Hub](https://trello.com/b/kJmHUUVR/nexusflow-operations-hub)
 - **Lists**: INFO/GUIDE → PRODUCT BACKLOG → SPRINT PLANNING → IN PROGRESS → BLOCKERS → DONE
 
 ## 📝 Documentation
 
-- [Production Stories](docs/PRODUCCION.md) - User stories PROD-01 to PROD-05
-- [Changelog](CHANGELOG.md) - Version history
+- [Production Stories (EN)](docs/en/PRODUCCION.md) - User stories PROD-01 to PROD-05
+- [Production Stories (ES)](docs/es/PRODUCCION.md) - Historias de usuario PROD-01 a PROD-05
 
-## 🤝 Contributing
+</details>
 
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request with clear description
+---
+
+<details>
+<summary>🇪🇸 <b>Versión en Español</b></summary>
+
+## 🚀 Descripción General
+
+**NexusFlow** es un sistema integral de gestión operativa construido sobre principios Agile. Proporciona un framework estructurado para gestionar sprints, backlogs, velocidad del equipo y evaluación de riesgos en entornos modernos de desarrollo de software.
+
+## 🎯 Propósito
+
+NexusFlow sirve como el hub central para la excelencia operativa, permitiendo a los equipos:
+
+- **Planificar Eficazmente**: Planificación de sprint estructurada con objetivos claros
+- **Gestionar Backlogs**: Gestión priorizada del product backlog
+- **Seguimiento de Velocidad**: Métricas y tendencias de velocidad del equipo en tiempo real
+- **Evaluar Riesgos**: Framework proactivo de gestión de riesgos Agile
+- **Integrar Operaciones**: Hub de operaciones unificado para flujo de trabajo fluido
+
+## 📁 Estructura del Proyecto
+
+```
+NexusFlow/
+├── assets/              # Recursos estáticos y multimedia
+├── backlog/             # Elementos del product backlog e historias
+├── docs/
+│   ├── en/              # Documentación en inglés
+│   │   └── PRODUCCION.md
+│   └── es/              # Documentación en español
+│       └── PRODUCCION.md
+└── prompts/             # Prompts de IA y logs de ejecución
+```
+
+## 🔄 Componentes del Framework Agile
+
+| Componente | Descripción |
+|------------|-------------|
+| Gestión de Sprint | Planificación, dailies, reviews y retrospectivas |
+| Gestión de Backlog | Priorización, historias de usuario, criterios de aceptación |
+| Seguimiento de Velocidad | Planificación de capacidad, burndown charts, tendencias |
+| Gestión de Riesgos | Identificación, mitigación, monitoreo continuo |
+
+## 📊 Integración con Trello
+
+- **Tablero**: [NexusFlow - Operations Hub](https://trello.com/b/kJmHUUVR/nexusflow-operations-hub)
+- **Listas**: INFO/GUIDE → PRODUCT BACKLOG → SPRINT PLANNING → IN PROGRESS → BLOCKERS → DONE
+
+## 📝 Documentación
+
+- [Historias de Producción (EN)](docs/en/PRODUCCION.md) - User stories PROD-01 to PROD-05
+- [Historias de Producción (ES)](docs/es/PRODUCCION.md) - Historias de usuario PROD-01 a PROD-05
+
+</details>
+
+---
+
+## 👤 Author
+
+**Manu Alvarez** - Project Author & Solution Architect
+
+*This bilingual project reflects my capacity for management in multicultural environments and distributed teams.*
+
+*Este proyecto bilingüe refleja mi capacidad de gestión en entornos multiculturales y equipos distribuidos.*
+
+---
 
 ## 📄 License
 
@@ -94,4 +131,4 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 ---
 
-**NexusFlow** - *Empowering Agile Operations*
+**NexusFlow** - *Empowering Agile Operations | Potenciando Operaciones Agile*
