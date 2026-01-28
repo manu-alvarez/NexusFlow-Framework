@@ -111,7 +111,33 @@ NexusFlow/
 - [Historias de Producción (EN)](docs/en/PRODUCCION.md) - User stories PROD-01 to PROD-05
 - [Historias de Producción (ES)](docs/es/PRODUCCION.md) - Historias de usuario PROD-01 a PROD-05
 
-</details>
+---
+
+## 🔴 Live Status
+
+> **Sprint 01**: ✅ Completed | **Architecture**: Validated | **Quality Score**: 100%
+
+| Epic | Status | Progress |
+|------|--------|----------|
+| 🔵 Production | PROD-01 Done | ████████░░ |
+| 🟠 Logistics | LOG-01 Blocked | ██░░░░░░░░ |
+| 🟢 Commercial | COM-01 Done | ████████░░ |
+| 🟡 Finance | FAC-01 Planning | ░░░░░░░░░░ |
+
+**Next**: Sprint 02 - Resolve LOG-01 blocker, continue FAC-01
+
+---
+
+## 📝 Full Documentation
+
+| Document | EN | ES |
+|----------|:--:|:--:|
+| Production Stories | [PRODUCCION.md](docs/en/PRODUCCION.md) | [PRODUCCION.md](docs/es/PRODUCCION.md) |
+| Logistics Stories | [LOGISTICA.md](docs/en/LOGISTICA.md) | [LOGISTICA.md](docs/es/LOGISTICA.md) |
+| Commercial Stories | [COMERCIAL.md](docs/en/COMERCIAL.md) | [COMERCIAL.md](docs/es/COMERCIAL.md) |
+| Finance Stories | [FACTURACION.md](docs/en/FACTURACION.md) | [FACTURACION.md](docs/es/FACTURACION.md) |
+| Sprint 01 Report | [SPRINT_01_REPORT.md](docs/SPRINT_01_REPORT.md) | - |
+| Retrospective 01 | [RETROSPECTIVE_01.md](docs/RETROSPECTIVE_01.md) | - |
 
 ---
 
@@ -132,3 +158,4 @@ MIT License - See [LICENSE](LICENSE) for details.
 ---
 
 **NexusFlow** - *Empowering Agile Operations | Potenciando Operaciones Agile*
+
