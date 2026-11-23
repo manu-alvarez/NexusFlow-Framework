@@ -1,0 +1,36 @@
+name: NexusFlow documentation generator
+
+on:
+  push:
+    branches: [fix/portable-pdf-guide-20261124]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  generate-guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install reportlab pillow pypdf
+      - name: Validate all Python tooling syntax
+        run: python -m compileall -q prompts
+      - name: Generate guide without machine-specific paths
+        run: python prompts/generate_guide_pdf.py
+      - name: Verify PDF output is readable and non-empty
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from pypdf import PdfReader
+          p=Path('docs/NexusFlow_Guia_Sencilla.pdf')
+          assert p.exists() and p.stat().st_size>3000
+          reader=PdfReader(p)
+          assert len(reader.pages)>=1
+          print(f'PASS: generated {len(reader.pages)} PDF pages, {p.stat().st_size} bytes')
+          PY
