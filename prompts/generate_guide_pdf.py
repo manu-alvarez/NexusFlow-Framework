@@ -8,9 +8,10 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
 from PIL import Image as PILImage
 import os
+from pathlib import Path
 
 # Paths
-DOCS_DIR = "/Users/manu/Desktop/NexusFlow/docs"
+DOCS_DIR = str(Path(__file__).resolve().parents[1] / "docs")
 OUTPUT_PDF = os.path.join(DOCS_DIR, "NexusFlow_Guia_Sencilla.pdf")
 IMG_BOARD = os.path.join(DOCS_DIR, "img_board_overview.png")
 IMG_BLOCKER = os.path.join(DOCS_DIR, "img_blocker.png")
