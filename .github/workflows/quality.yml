@@ -2,7 +2,7 @@ name: NexusFlow documentation generator
 
 on:
   push:
-    branches: [fix/portable-pdf-guide-20261124]
+    branches: [main]
   pull_request:
     branches: [main]
 
